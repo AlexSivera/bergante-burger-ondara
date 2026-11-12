@@ -333,6 +333,7 @@ abbr { text-decoration: none; }
 .carta__nota { font-size: 14px; color: #5c554b; margin-top: 18px; }
 .carta__nota a { color: var(--rojo-texto); font-weight: 600; }
 .carta__texto { font-size: 15px; }
+.carta__texto--grande { font-size: 17px; line-height: 1.45; max-width: 24em; }
 .carta__intro { font-size: 15px; line-height: 1.45; margin: -4px 0 18px; max-width: 34em; }
 .carta__intro b { color: var(--rojo-texto); }
 .carta__col .carta__foto { margin: 26px 0 0; }

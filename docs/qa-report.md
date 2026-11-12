@@ -30,7 +30,7 @@ Resultado: sin desbordes horizontales; el rótulo BERGANTE pasa por detrás del 
 ## Pendiente de confirmar con el cliente
 - Carta de burgers: confirmada con el destacado «Carta» de Instagram (12/11/2026).
 - Snacks y alérgenos: confirmados con el destacado «Carta» de Instagram (12/11/2026).
-- Cakes: solo hay carta de 2023; confirmar postres y precios.
+- Postres: la web dice "caseros y fuera de carta" (según reseñas); si quieren, listar los fijos con precio.
 - Permiso para usar fotos de Instagram, de clientes en Maps y las citas de reseñas.
 - Si el 613 133 429 tiene WhatsApp (no se ha anunciado como tal).
 - Cada mes: actualizar nombre, ingredientes, foto y `data-b-fin` de la B del mes.

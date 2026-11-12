@@ -153,6 +153,13 @@
       800
     ]
   },
+  "postre": {
+    "ratio": 0.8,
+    "widths": [
+      480,
+      800
+    ]
+  },
   "batatas": {
     "ratio": 0.8,
     "widths": [
