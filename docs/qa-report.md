@@ -28,7 +28,7 @@ Resultado: sin desbordes horizontales; el rótulo BERGANTE pasa por detrás del 
 - Safari/Firefox.
 
 ## Pendiente de confirmar con el cliente
-- Carta de burgers: tomada de la foto más reciente (≈ sept. 2026); confirmar que sigue vigente.
+- Carta de burgers: confirmada con el destacado «Carta» de Instagram (12/11/2026).
 - Precios de snacks y cakes: de 2025 (las burgers subieron 1–2 € en 2026, probablemente también los snacks).
 - Leyenda de alérgenos (1–12).
 - Permiso para usar fotos de Instagram, de clientes en Maps y las citas de reseñas.

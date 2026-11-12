@@ -31,7 +31,8 @@ Cada mes una burger especial, "disponible durante el mes de…":
 ## Carta (fotos de clientes en Google Maps, fechas comprobadas con el navegador integrado)
 **Burgers** — foto de la carta en la reseña de edipo MTG (hace 2 meses ≈ sept. 2026), la más reciente. Las de vaca llevan 180 g de vaca madurada; todas con patatas fritas; pan sin gluten y sin lactosa bajo petición:
 Cheese bacon burger 14 € · Barbacoa burger 14 € · Trufa cheese bacon burger 15 € · Miss Piggy 16 € · Old cow B 17 € · Kabronara 16 € · Chicken burger 14 € · V burger 13 € (Heura).
-Comprobación: la misma página en agosto 2025 (reseña de Ivan Morell) tenía las mismas 8 burgers a 12–16 €, y su ticket del 15/08/2025 cobra Cheese bacon 13 € y Miss Piggy 15 € → la de 2026 es la vigente.
+**Confirmado (12/11/2026)** con la imagen del destacado «Carta» de su Instagram que pasó el cliente: mismas 8 burgers, mismos precios y mismo orden.
+Comprobación previa: la misma página en agosto 2025 (reseña de Ivan Morell) tenía las mismas 8 burgers a 12–16 €, y su ticket del 15/08/2025 cobra Cheese bacon 13 € y Miss Piggy 15 € → la de 2026 es la vigente.
 
 **Snacks y cakes** — la foto más reciente es de agosto 2025 (Ivan Morell; el ticket confirma Batatas Bergantes 8,50 €). Cakes: foto de abril 2023. Precios de 2025 marcados en la web como pendientes de actualizar.
 **Snacks**: Torreznos jumbo con salsa "Emy" 12 € · Batatas Bergantes 8,5 € (V) · Cheese bacon fries 8 € · Totopos Umami 10 € (V) · Pollo al estilo thai 8,5 € (V) · Alitas 8 €. **Cakes**: tarta de queso con galleta de jengibre 5 € · tarta de Nutella con crema de chocolate blanco 5 €. "V" = opción vegana. Alérgenos numerados 1–12 en la carta (no se ha podido leer la leyenda).
