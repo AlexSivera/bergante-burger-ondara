@@ -18,8 +18,12 @@ Las fotos de Instagram y Google Maps se usan **solo para la demo**: antes de pub
 | `local-mural` | El local | Google Maps, foto de cliente (ene. 2025) | Real, nivel B (móvil) | **Prioridad**: interior con el mural, de noche, luz cálida, mesas ocupadas, horizontal y vertical |
 | `totopos` | Carta · Snacks | Google Maps, foto de cliente | Real, B | Foto cenital de los Totopos Umami sobre su papel |
 | `pollo-thai` | Carta · Snacks | Google Maps, foto de cliente | Real, B | Pollo thai + salsa satay, luz dura como el resto |
-| `cerveza` | El local | Unsplash — https://unsplash.com/es/fotos/cerveza-siendo-vertida-en-un-vaso-desde-un-grifo-oGF1LA_q84Q (licencia Unsplash, gratuita) | **Stock provisional** (ambiente, no se presenta como su barra) | Sus cervezas artesanas reales, botella + vaso, en la barra |
+| `neon` | El local | Google Maps, reseña de edipo MTG (≈ sept. 2026): neón "Fuck the diet" | Real, nivel B (móvil) | El mismo neón fotografiado de noche con trípode |
 | `og.jpg` | Compartir en redes | Recorte apaisado de `hero-acero` | Real | — |
+
+Ya no se usa stock: la foto de Unsplash de la cerveza se sustituyó por el neón real.
+
+Textos de la carta: fotos de la carta en reseñas de Google (edipo MTG ≈ sept. 2026 para burgers; Ivan Morell, ago. 2025, para snacks; abril 2023 para cakes). Originales en `raw/resenas/` y `raw/maps/`.
 
 Logotipo: no se ha usado imagen; "BERGANTE" se compone con Big Shoulders Display 900, cercana a su wordmark condensado. En la versión final, usar su logotipo vectorial.
 

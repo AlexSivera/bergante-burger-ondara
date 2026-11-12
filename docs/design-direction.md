@@ -7,7 +7,7 @@ No es una metáfora impuesta: el acero sale de sus fotos reales; el rojo y el cr
 ## Sistema
 - **Paleta**: acero `#0e0e0f` (fondo), crema de carta `#f1eadf`, rojo Bergante `#d9262c` (texto sobre crema `#c01d23`), gris de estudio `#bfbcc2` (solo la sección capa a capa, igual al fondo de esas fotos), verde de la "V" vegana de su carta.
 - **Tipografía**: Big Shoulders Display 900 (condensada, como su logotipo y su carta) para nombres y titulares; Archivo para texto; IBM Plex Mono para etiquetas tipo comanda (mes, hora, "x1").
-- **Fotografía**: la suya. Luz dura, fondo oscuro, producto centrado. Fotos de clientes solo en tamaño pequeño y con etalonaje común. Un único stock (cerveza tirada) como ambiente.
+- **Fotografía**: la suya. Luz dura, fondo oscuro, producto centrado. Fotos de clientes solo en tamaño pequeño y con etalonaje común. Sin stock: todo es material real del negocio.
 - **Composición**: a sangre en producto, rejilla de reglas finas en la carta (como una carta impresa), mucho negro.
 - **Botones**: rectangulares, sin radios, mayúsculas condensadas; el principal en rojo.
 - **Movimiento**: mínimo y con función: el nombre detrás del pan (estático, sin trucos), la burger que se monta con el scroll, apariciones suaves. Respeta `prefers-reduced-motion`.

@@ -28,10 +28,15 @@ Cada mes una burger especial, "disponible durante el mes de…":
 - **Octubre — Emily B.**: brioche con sésamo negro, homenaje a la salsa "Emily", cebolla caramelizada con panceta, cheddar blanco curado, vaca madurada.
 - **Noviembre — The Venom B**: potato bun con carbón activo, cebolla morada encurtida, gouda, pollo de corral frito, pepinillos dulces, salsa lemon pepper.
 
-## Carta (fotos de clientes en Google Maps; fecha de la foto desconocida → precios a confirmar)
+## Carta (fotos de clientes en Google Maps, fechas comprobadas con el navegador integrado)
+**Burgers** — foto de la carta en la reseña de edipo MTG (hace 2 meses ≈ sept. 2026), la más reciente. Las de vaca llevan 180 g de vaca madurada; todas con patatas fritas; pan sin gluten y sin lactosa bajo petición:
+Cheese bacon burger 14 € · Barbacoa burger 14 € · Trufa cheese bacon burger 15 € · Miss Piggy 16 € · Old cow B 17 € · Kabronara 16 € · Chicken burger 14 € · V burger 13 € (Heura).
+Comprobación: la misma página en agosto 2025 (reseña de Ivan Morell) tenía las mismas 8 burgers a 12–16 €, y su ticket del 15/08/2025 cobra Cheese bacon 13 € y Miss Piggy 15 € → la de 2026 es la vigente.
+
+**Snacks y cakes** — la foto más reciente es de agosto 2025 (Ivan Morell; el ticket confirma Batatas Bergantes 8,50 €). Cakes: foto de abril 2023. Precios de 2025 marcados en la web como pendientes de actualizar.
 **Snacks**: Torreznos jumbo con salsa "Emy" 12 € · Batatas Bergantes 8,5 € (V) · Cheese bacon fries 8 € · Totopos Umami 10 € (V) · Pollo al estilo thai 8,5 € (V) · Alitas 8 €. **Cakes**: tarta de queso con galleta de jengibre 5 € · tarta de Nutella con crema de chocolate blanco 5 €. "V" = opción vegana. Alérgenos numerados 1–12 en la carta (no se ha podido leer la leyenda).
 
-**No encontrado**: la lista de burgers fijas de la carta y sus precios (está en el destacado "Carta" de IG, que pide login). No se inventa: la web remite a la carta en sala/IG y se marca como pendiente.
+**Snacks (ago. 2025)**: ver arriba. En el local hay un neón rosa "Fuck the diet" (foto de edipo MTG).
 
 ## Lectura del negocio
 - **Producto**: burger de autor con pan de obrador propio del grupo y carne madurada; la "B del mes" es su motor de contenido y de visitas repetidas.
