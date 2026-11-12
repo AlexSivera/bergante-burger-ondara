@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Bergante Burger · Hamburguesería en Ondara · La B del mes</title>
+  <meta name="description" content="Hamburguesería en Ondara (C/ Joan Gil 15). Brioche artesanal, vaca madurada y una burger nueva cada mes. Opciones veganas y sin gluten. Jueves a domingo, 19:00–23:00. Reservas: 613 133 429.">
+  <link rel="canonical" href="{{SITE_URL}}">
+  <meta name="theme-color" content="#0e0e0f">
+  <meta property="og:type" content="restaurant">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:title" content="Bergante Burger · Ondara">
+  <meta property="og:description" content="Burgers de vaca madurada en brioche artesanal y una B nueva cada mes. Jueves a domingo, 19:00–23:00.">
+  <meta property="og:url" content="{{SITE_URL}}">
+  <meta property="og:image" content="{{SITE_URL}}assets/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/big-shoulders.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/archivo.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Bergante Burger",
+    "url": "{{SITE_URL}}",
+    "image": "{{SITE_URL}}assets/og.jpg",
+    "telephone": "+34 613 133 429",
+    "servesCuisine": ["Hamburguesas"],
+    "priceRange": "10–20 €",
+    "acceptsReservations": "True",
+    "hasMenu": "{{SITE_URL}}#carta",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Carrer Joan Gil, 15",
+      "addressLocality": "Ondara",
+      "postalCode": "03760",
+      "addressRegion": "Alicante",
+      "addressCountry": "ES"
+    },
+    "geo": { "@type": "GeoCoordinates", "latitude": 38.8231175, "longitude": 0.0174073 },
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Thursday", "Friday", "Saturday", "Sunday"],
+      "opens": "19:00",
+      "closes": "23:00"
+    }],
+    "sameAs": ["https://www.instagram.com/bergante_burger/"]
+  }
+  </script>
+</head>
+<body>
+  <a class="saltar" href="#principal">Saltar al contenido</a>
+
+  <header class="top" id="top">
+    <a class="top__marca" href="#inicio" aria-label="Bergante Burger, inicio">Bergante</a>
+    <nav class="top__nav" aria-label="Secciones">
+      <a href="#b-del-mes">La B del mes</a>
+      <a href="#carta">Carta</a>
+      <a href="#local">El local</a>
+    </nav>
+    <p class="top__estado mono" data-estado aria-live="polite">Jue–Dom · 19:00–23:00</p>
+    <a class="boton boton--rojo top__reservar" href="tel:+34613133429">Reservar</a>
+  </header>
+
+  <main id="principal">
+    <!-- ============ HERO: el nombre pasa por detrás del pan ============ -->
+    <section class="hero" id="inicio" aria-labelledby="hero-titulo">
+      <div class="hero__escena">
+        <picture class="hero__foto">
+          <source media="(min-width: 760px) and (orientation: landscape)" data-img="hero-acero" sizes="100vw">
+          <img data-img="hero-acero-m" sizes="100vw" alt="The Cheesebacon B2, la B de agosto: brioche con cheddar fundido y bacon sobre la mesa de acero de la cocina de Bergante" loading="eager" fetchpriority="high">
+        </picture>
+        <p class="hero__cabecera" aria-hidden="true">Bergante</p>
+        <picture class="hero__foto hero__foto--delante" aria-hidden="true">
+          <source media="(min-width: 760px) and (orientation: landscape)" data-img="hero-acero" sizes="100vw">
+          <img data-img="hero-acero-m" sizes="100vw" alt="" loading="eager">
+        </picture>
+      </div>
+
+      <div class="hero__texto">
+        <div class="hero__intro">
+          <h1 id="hero-titulo" class="hero__h1 mono"><span class="sr">Bergante Burger. </span>Hamburguesería en Ondara</h1>
+          <p class="definicion">
+            <b>ber·gan·te</b> <i>m. y f.</i> Persona pícara o sinvergüenza.
+            <span class="definicion__dos"><b>2.</b> En Ondara: burgers de vaca madurada en brioche de obrador propio. Y una nueva cada mes.</span>
+          </p>
+        </div>
+        <div class="hero__acciones">
+          <a class="boton boton--rojo" href="tel:+34613133429"><span>Reservar mesa</span> <span class="mono boton__extra">613 133 429</span></a>
+          <a class="boton boton--linea" href="#carta">Ver la carta</a>
+          <p class="hero__pie mono">En la foto: The Cheesebacon B2, la B de agosto</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ LA B DEL MES ============ -->
+    <section class="bmes" id="b-del-mes" aria-labelledby="bmes-titulo" data-b-fin="2026-11-30">
+      <div class="bmes__cab">
+        <p class="etiqueta mono">La B del mes · noviembre 2026</p>
+        <h2 id="bmes-titulo" class="bmes__nombre">The Venom&nbsp;B</h2>
+        <p class="bmes__intro">Cada mes sale una burger con nombre propio. Se pide mientras dura el mes. Cuando cambia el calendario, cambia la B.</p>
+      </div>
+
+      <div class="bmes__cuerpo">
+        <figure class="bmes__foto revela">
+          <img data-img="venom" sizes="(min-width: 760px) 300px, 46vw" alt="The Venom B cortada por la mitad: pan negro de carbón activo, pollo frito y salsa clara sobre papel con el logo de Umami">
+          <figcaption class="mono">Fotograma del reel de @bergante_burger</figcaption>
+        </figure>
+
+        <article class="ticket revela" aria-label="Comanda de The Venom B">
+          <header class="ticket__cab mono">
+            <span>Comanda</span><span>Nov · 2026</span>
+          </header>
+          <p class="ticket__plato"><span class="mono">x1</span> The Venom B</p>
+          <ul class="ticket__lineas mono">
+            <li>Potato bun con carbón activo <em>Buns Bunny Factory</em></li>
+            <li>Pollo de corral frito</li>
+            <li>Queso gouda</li>
+            <li>Cebolla morada encurtida</li>
+            <li>Pepinillos dulces</li>
+            <li>Salsa lemon pepper</li>
+          </ul>
+          <p class="ticket__fin mono"><span>Solo en noviembre</span> <span data-b-quedan></span></p>
+          <a class="boton boton--negro ticket__boton" href="tel:+34613133429">Resérvala · 613 133 429</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ CAPA A CAPA (scroll) ============ -->
+    <section class="capas" id="capa-a-capa" aria-labelledby="capas-titulo">
+      <div class="capas__fijo">
+        <div class="capas__texto">
+          <p class="etiqueta mono">Capa a capa · la B de septiembre</p>
+          <h2 id="capas-titulo" class="capas__titulo">Así se monta una&nbsp;B.</h2>
+          <p class="capas__ahora" aria-hidden="true"><span class="mono" data-capa-num>01 / 08</span> <span data-capa-nombre>Brioche de obrador</span></p>
+          <ol class="capas__lista">
+            <li class="activa">Brioche de Buns Bunny Factory</li>
+            <li>Salsa blanca</li>
+            <li>Lechuga en juliana</li>
+            <li>Vaca madurada</li>
+            <li>Queso feta</li>
+            <li>Kebab de pollo marinado</li>
+            <li>Cebolla morada encurtida</li>
+            <li>Tapa y a la mesa: The Döner B.</li>
+          </ol>
+        </div>
+        <div class="capas__escena" aria-hidden="true">
+          <img data-img="paso-1" sizes="(min-width: 960px) 56vw, 100vw" alt="" class="activa" loading="lazy">
+          <img data-img="paso-2" sizes="(min-width: 960px) 56vw, 100vw" alt="">
+          <img data-img="paso-3" sizes="(min-width: 960px) 56vw, 100vw" alt="">
+          <img data-img="paso-4" sizes="(min-width: 960px) 56vw, 100vw" alt="">
+          <img data-img="paso-5" sizes="(min-width: 960px) 56vw, 100vw" alt="">
+          <img data-img="paso-6" sizes="(min-width: 960px) 56vw, 100vw" alt="">
+          <img data-img="paso-7" sizes="(min-width: 960px) 56vw, 100vw" alt="">
+          <img data-img="paso-8" sizes="(min-width: 960px) 56vw, 100vw" alt="">
+        </div>
+        <div class="capas__barra" aria-hidden="true"><span data-capa-barra></span></div>
+      </div>
+    </section>
+
+    <!-- ============ ARCHIVO DE LAS B ============ -->
+    <section class="archivo" aria-labelledby="archivo-titulo">
+      <div class="archivo__cab">
+        <p class="etiqueta mono">2026</p>
+        <h2 id="archivo-titulo" class="archivo__titulo">El archivo de las&nbsp;B</h2>
+        <p class="archivo__intro">De julio a noviembre de 2026. Si te perdiste alguna, Instagram guarda las pruebas.</p>
+      </div>
+      <ol class="archivo__lista">
+        <li class="archivo__fila archivo__fila--ahora revela">
+          <span class="archivo__mes mono">Nov</span>
+          <img data-img="venom" sizes="120px" alt="The Venom B">
+          <div><h3>The Venom B <span class="mono chip">ahora</span></h3><p>Pollo de corral frito, potato bun de carbón activo, salsa lemon pepper.</p></div>
+        </li>
+        <li class="archivo__fila revela">
+          <span class="archivo__mes mono">Oct</span>
+          <img data-img="emily" sizes="120px" alt="Emily B. en bandeja metálica con patatas y pepinillo">
+          <div><h3>Emily B.</h3><p>Brioche con sésamo negro, nuestro homenaje a la salsa “Emily”, cebolla caramelizada con panceta, cheddar blanco curado.</p></div>
+        </li>
+        <li class="archivo__fila revela">
+          <span class="archivo__mes mono">Sep</span>
+          <img data-img="doner-guante" sizes="120px" alt="Mano con guante negro apretando la Döner B">
+          <div><h3>The Döner B.</h3><p>Vaca madurada, kebab de pollo marinado, feta, salsa blanca y cebolla morada encurtida.</p></div>
+        </li>
+        <li class="archivo__fila revela">
+          <span class="archivo__mes mono">Ago</span>
+          <img data-img="cheesebacon-salsa" sizes="120px" alt="The Cheesebacon B2 sobre acero con la salsa cayendo">
+          <div><h3>The Cheesebacon B2</h3><p>Doble cheddar americano, cheddar cremoso, bacon bits y The Fucking Salsa.</p></div>
+        </li>
+        <li class="archivo__fila revela">
+          <span class="archivo__mes mono">Jul</span>
+          <img data-img="txist-mak" sizes="120px" alt="Una burger y un bocata servidos delante de una cortina roja">
+          <div><h3>Txist Mak</h3><p>A medias con Bar La Dinaora. ¿Te quedabas con la burger o con el bocata?</p></div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============ CARTA (papel crema, como la carta de sala) ============ -->
+    <section class="carta" id="carta" aria-labelledby="carta-titulo">
+      <header class="carta__cab">
+        <h2 id="carta-titulo" class="carta__titulo">Carta</h2>
+        <p class="mono carta__sub">Jueves a domingo · cocina de 19:00 a 23:00</p>
+      </header>
+
+      <div class="carta__rejilla">
+        <div class="carta__col">
+          <h3 class="carta__h3">Burgers</h3>
+          <figure class="carta__foto"><img data-img="cheesebacon" sizes="(min-width: 960px) 28vw, 92vw" alt="The Cheesebacon B2 de cerca: brioche, cheddar fundido con bacon bits y la carne madurada"><figcaption class="mono">The Cheesebacon B2 · agosto 2026</figcaption></figure>
+          <a class="carta__bmes" href="#b-del-mes">
+            <span class="mono">La B de noviembre</span>
+            <strong>The Venom B</strong>
+            <span class="flecha" aria-hidden="true">→</span>
+          </a>
+          <ul class="carta__base">
+            <li><b>Pan</b> Brioche artesanal de Buns Bunny Factory, el obrador de la casa.</li>
+            <li><b>Carne</b> Vaca madurada.</li>
+            <li><b>Veggie</b> Cualquier burger se hace vegetariana o vegana, con Heura. Hay versión vegana con queso y bacon veganos.</li>
+            <li><b>Sin gluten</b> Pan sin gluten y cuidado con la contaminación cruzada.</li>
+          </ul>
+          <blockquote class="cita">
+            <p>“Todas las hamburguesas se pueden hacer vegetarianas y se les puede poner pan sin gluten.”</p>
+            <cite class="mono">Mar R. · reseña en Google</cite>
+          </blockquote>
+          <p class="carta__nota">Las burgers fijas de la carta, en sala y en el destacado «Carta» de <a href="https://www.instagram.com/bergante_burger/" target="_blank" rel="noopener">@bergante_burger</a>.</p>
+        </div>
+
+        <div class="carta__col">
+          <h3 class="carta__h3">Snacks</h3>
+          <ul class="platos">
+            <li class="plato plato--estrella">
+              <p class="plato__linea"><span class="plato__nombre">Batatas Bergantes <abbr class="v" title="Opción vegana">V</abbr></span><span class="plato__precio">8,5 €</span></p>
+              <p class="plato__desc">Panceta a baja temperatura, mermelada de bacon, mayonesa kimchi.</p>
+              <p class="sello mono">Las más nombradas en nuestras reseñas</p>
+            </li>
+            <li class="plato">
+              <p class="plato__linea"><span class="plato__nombre">Torreznos jumbo con salsa “Emy”</span><span class="plato__precio">12 €</span></p>
+            </li>
+            <li class="plato">
+              <p class="plato__linea"><span class="plato__nombre">Totopos Umami <abbr class="v" title="Opción vegana">V</abbr></span><span class="plato__precio">10 €</span></p>
+              <p class="plato__desc">Guacamole, jalapeños, boloñesa de vaca, cheddar cremoso y crema agria.</p>
+            </li>
+            <li class="plato">
+              <p class="plato__linea"><span class="plato__nombre">Cheese bacon fries</span><span class="plato__precio">8 €</span></p>
+              <p class="plato__desc">Patatas fritas, cheddar cremoso, bacon bits y crema ranchera.</p>
+            </li>
+            <li class="plato">
+              <p class="plato__linea"><span class="plato__nombre">Pollo al estilo thai <abbr class="v" title="Opción vegana">V</abbr></span><span class="plato__precio">8,5 €</span></p>
+              <p class="plato__desc">Pollo frito con salsa satay de cacahuete.</p>
+            </li>
+            <li class="plato">
+              <p class="plato__linea"><span class="plato__nombre">Alitas</span><span class="plato__precio">8 €</span></p>
+              <p class="plato__desc">Asadas y fritas, con barbacoa Bull’s-Eye original.</p>
+            </li>
+          </ul>
+          <div class="carta__fotos">
+            <figure><img data-img="totopos" sizes="(min-width: 960px) 14vw, 44vw" alt="Totopos Umami con cheddar, crema agria y jalapeño"><figcaption class="mono">Totopos Umami</figcaption></figure>
+            <figure><img data-img="pollo-thai" sizes="(min-width: 960px) 14vw, 44vw" alt="Pollo frito rebozado con un bol de salsa satay"><figcaption class="mono">Pollo thai</figcaption></figure>
+          </div>
+        </div>
+
+        <div class="carta__col">
+          <h3 class="carta__h3">Cakes</h3>
+          <ul class="platos">
+            <li class="plato">
+              <p class="plato__linea"><span class="plato__nombre">Tarta de queso</span><span class="plato__precio">5 €</span></p>
+              <p class="plato__desc">Con galleta de jengibre.</p>
+            </li>
+            <li class="plato">
+              <p class="plato__linea"><span class="plato__nombre">Tarta de Nutella</span><span class="plato__precio">5 €</span></p>
+              <p class="plato__desc">Con crema de chocolate blanco.</p>
+            </li>
+          </ul>
+          <p class="carta__nota">Y fuera de carta, postres caseros. Pregunta por ellos.</p>
+
+          <h3 class="carta__h3 carta__h3--beber">Para beber</h3>
+          <p class="carta__texto">Cervezas artesanas, no solo las de siempre. Pregunta cuáles hay.</p>
+          <blockquote class="cita">
+            <p>“El entrante que recomiendo es el plato de batata, sencillamente delicioso.”</p>
+            <cite class="mono">Ivan M. · reseña en Google</cite>
+          </blockquote>
+        </div>
+      </div>
+
+      <p class="carta__pie mono"><abbr class="v" title="Opción vegana">V</abbr> opción vegana · Alérgenos indicados plato a plato en la carta de sala · Precios según carta de sala</p>
+    </section>
+
+    <!-- ============ EL LOCAL ============ -->
+    <section class="local" id="local" aria-labelledby="local-titulo">
+      <div class="local__cab">
+        <p class="etiqueta mono">El local</p>
+        <h2 id="local-titulo" class="local__titulo">Carrer Joan Gil,&nbsp;15. <span>Ondara.</span></h2>
+        <p class="local__intro">Un mural que no se calla, sillas rojas, barra y terraza. Solo cenas, de jueves a domingo. Es un sitio pequeño: mejor reservar.</p>
+      </div>
+
+      <div class="local__mosaico">
+        <figure class="local__f local__f--mural revela">
+          <img data-img="local-mural" sizes="(min-width: 960px) 40vw, 100vw" alt="Comedor de Bergante: mural de colores, mesas de madera y sillas rojas">
+        </figure>
+        <figure class="local__f local__f--servicio revela">
+          <img data-img="emily-servicio" sizes="(min-width: 960px) 30vw, 60vw" alt="Brazo tatuado sirviendo una bandeja con burger, patatas, pepinillo y salsa">
+        </figure>
+        <figure class="local__f local__f--cerveza revela">
+          <img data-img="cerveza" sizes="(min-width: 960px) 22vw, 40vw" alt="Cerveza tirada del grifo en copa">
+        </figure>
+        <figure class="local__f local__f--halloween revela">
+          <img data-img="halloween" sizes="(min-width: 960px) 14vw, 36vw" alt="El equipo de Bergante con bolsas de papel en la cabeza en Halloween">
+          <figcaption class="mono">Halloween 2026</figcaption>
+        </figure>
+      </div>
+
+      <ul class="local__datos mono">
+        <li>Terraza</li><li>Barra</li><li>Niños bienvenidos</li><li>Vegano y vegetariano</li><li>Sin gluten</li><li>Cervezas artesanas</li><li>Para llevar</li><li>Aparcamiento en la calle</li>
+      </ul>
+
+      <div class="familia">
+        <p class="familia__titulo mono">De la familia Umami Group</p>
+        <ul class="familia__lista">
+          <li><a href="https://www.instagram.com/umami_gastrobar/" target="_blank" rel="noopener"><strong>Umami Gastrobar</strong> <span>Dénia</span></a></li>
+          <li><a href="https://www.instagram.com/barladinaora/" target="_blank" rel="noopener"><strong>Bar La Dinaora</strong> <span>Ondara · de día</span></a></li>
+          <li><a href="https://www.instagram.com/bunsbunnyfactory/" target="_blank" rel="noopener"><strong>Buns Bunny Factory</strong> <span>El brioche</span></a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ RESERVA ============ -->
+    <section class="reserva" id="reserva" aria-labelledby="reserva-titulo">
+      <h2 id="reserva-titulo" class="reserva__titulo">Pide mesa.</h2>
+      <a class="reserva__tel" href="tel:+34613133429" aria-label="Llamar al 613 133 429 para reservar">613 133 429</a>
+      <p class="reserva__nota">Reservas y pedidos para llevar, por teléfono.</p>
+
+      <div class="reserva__rejilla">
+        <table class="horario mono" aria-label="Horario">
+          <tbody>
+            <tr data-dia="1"><th scope="row">Lunes</th><td>Cerrado</td></tr>
+            <tr data-dia="2"><th scope="row">Martes</th><td>Cerrado</td></tr>
+            <tr data-dia="3"><th scope="row">Miércoles</th><td>Cerrado</td></tr>
+            <tr data-dia="4"><th scope="row">Jueves</th><td>19:00–23:00</td></tr>
+            <tr data-dia="5"><th scope="row">Viernes</th><td>19:00–23:00</td></tr>
+            <tr data-dia="6"><th scope="row">Sábado</th><td>19:00–23:00</td></tr>
+            <tr data-dia="0"><th scope="row">Domingo</th><td>19:00–23:00</td></tr>
+          </tbody>
+        </table>
+
+        <div class="reserva__donde">
+          <p class="reserva__dir">Carrer Joan Gil, 15<br>03760 Ondara, Alicante</p>
+          <div class="reserva__acciones">
+            <a class="boton boton--negro" href="https://www.google.com/maps/dir/?api=1&amp;destination=Bergante+Burger%2C+Carrer+Joan+Gil+15%2C+03760+Ondara" target="_blank" rel="noopener">Cómo llegar</a>
+            <a class="boton boton--linea-negra" href="https://www.instagram.com/bergante_burger/" target="_blank" rel="noopener">Instagram</a>
+          </div>
+          <blockquote class="cita cita--grande">
+            <p>“Unas hamburguesas espectaculares y de sabor difícilmente superable.”</p>
+            <cite class="mono">Reseña en Google · 4,5 de media en 261 reseñas</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <p class="pie__marca" aria-hidden="true">Bergante</p>
+    <div class="pie__datos mono">
+      <p>Bergante Burger · Carrer Joan Gil 15, 03760 Ondara (Alicante)</p>
+      <p><a href="tel:+34613133429">613 133 429</a> · <a href="https://www.instagram.com/bergante_burger/" target="_blank" rel="noopener">@bergante_burger</a> · Umami Group</p>
+    </div>
+  </footer>
+
+  <nav class="barra" aria-label="Acciones rápidas">
+    <a class="barra__principal" href="tel:+34613133429">
+      <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z"/></svg>
+      Reservar
+    </a>
+    <a href="#carta">Carta</a>
+    <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Bergante+Burger%2C+Carrer+Joan+Gil+15%2C+03760+Ondara" target="_blank" rel="noopener">Llegar</a>
+  </nav>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
