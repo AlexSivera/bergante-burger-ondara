@@ -53,25 +53,30 @@
   "venom": {
     "ratio": 0.5625,
     "widths": [
-      360
+      360,
+      720,
+      1080
     ]
   },
   "txist-mak": {
     "ratio": 0.5625,
     "widths": [
-      360
+      360,
+      720
     ]
   },
   "doner-guante": {
     "ratio": 0.5625,
     "widths": [
-      360
+      360,
+      720
     ]
   },
   "halloween": {
     "ratio": 0.5625,
     "widths": [
-      360
+      360,
+      720
     ]
   },
   "paso-1": {

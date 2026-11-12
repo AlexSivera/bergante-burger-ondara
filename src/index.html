@@ -60,8 +60,24 @@
       <a href="#local">El local</a>
     </nav>
     <p class="top__estado mono" data-estado aria-live="polite">Jue–Dom · 19:00–23:00</p>
-    <a class="boton boton--rojo top__reservar" href="tel:+34613133429">Reservar</a>
+    <button class="top__menu" type="button" aria-expanded="false" aria-controls="menu">Menú</button>
+    <a class="boton boton--rojo top__reservar js-reservar" href="tel:+34613133429">Reservar</a>
   </header>
+
+  <div class="menu" id="menu" hidden>
+    <nav class="menu__nav" aria-label="Menú">
+      <a href="#b-del-mes"><span class="mono">01</span> La B del mes</a>
+      <a href="#capa-a-capa"><span class="mono">02</span> Capa a capa</a>
+      <a href="#carta"><span class="mono">03</span> Carta</a>
+      <a href="#local"><span class="mono">04</span> El local</a>
+      <a href="#reserva"><span class="mono">05</span> Reservar</a>
+    </nav>
+    <div class="menu__pie mono">
+      <p data-estado>Jue–Dom · 19:00–23:00</p>
+      <p>Carrer Joan Gil, 15 · Ondara</p>
+      <p><a href="tel:+34613133429">613 133 429</a> · <a href="https://www.instagram.com/bergante_burger/" target="_blank" rel="noopener">Instagram</a></p>
+    </div>
+  </div>
 
   <main id="principal">
     <!-- ============ HERO: el nombre pasa por detrás del pan ============ -->
@@ -87,8 +103,9 @@
           </p>
         </div>
         <div class="hero__acciones">
-          <a class="boton boton--rojo" href="tel:+34613133429"><span>Reservar mesa</span> <span class="mono boton__extra">613 133 429</span></a>
+          <a class="boton boton--rojo js-reservar" href="tel:+34613133429"><span>Reservar mesa</span> <span class="mono boton__extra">613 133 429</span></a>
           <a class="boton boton--linea" href="#carta">Ver la carta</a>
+          <p class="hero__estado mono" data-estado>Jue–Dom · 19:00–23:00</p>
           <p class="hero__pie mono">En la foto: The Cheesebacon B2, la B de agosto</p>
         </div>
       </div>
@@ -97,15 +114,16 @@
     <!-- ============ LA B DEL MES ============ -->
     <section class="bmes" id="b-del-mes" aria-labelledby="bmes-titulo" data-b-fin="2026-11-30">
       <div class="bmes__cab">
-        <p class="etiqueta mono">La B del mes · noviembre 2026</p>
+        <p class="etiqueta mono" data-b-etiqueta>La B del mes · noviembre 2026</p>
+        <p class="bmes__aviso" data-b-aviso hidden>La B nueva llega pronto. Se anuncia primero en <a href="https://www.instagram.com/bergante_burger/" target="_blank" rel="noopener">nuestro Instagram</a>.</p>
         <h2 id="bmes-titulo" class="bmes__nombre">The Venom&nbsp;B</h2>
         <p class="bmes__intro">Cada mes sale una burger con nombre propio. Se pide mientras dura el mes. Cuando cambia el calendario, cambia la B.</p>
       </div>
 
       <div class="bmes__cuerpo">
         <figure class="bmes__foto revela">
-          <img data-img="venom" sizes="(min-width: 760px) 300px, 46vw" alt="The Venom B cortada por la mitad: pan negro de carbón activo, pollo frito y salsa clara sobre papel con el logo de Umami">
-          <figcaption class="mono">Fotograma del reel de @bergante_burger</figcaption>
+          <img data-img="venom" sizes="(min-width: 900px) 300px, 54vw" alt="The Venom B cortada por la mitad: pan negro de carbón activo, pollo frito y salsa clara sobre papel con el logo de Umami">
+          <figcaption class="mono">Portada del reel de @bergante_burger</figcaption>
         </figure>
 
         <article class="ticket revela" aria-label="Comanda de The Venom B">
@@ -122,7 +140,7 @@
             <li>Salsa lemon pepper</li>
           </ul>
           <p class="ticket__fin mono"><span>Solo en noviembre</span> <span data-b-quedan></span></p>
-          <a class="boton boton--negro ticket__boton" href="tel:+34613133429">Resérvala · 613 133 429</a>
+          <a class="boton boton--negro ticket__boton js-reservar" href="tel:+34613133429" data-b-boton>Resérvala · 613 133 429</a>
         </article>
       </div>
     </section>
@@ -170,7 +188,7 @@
         <li class="archivo__fila archivo__fila--ahora revela">
           <span class="archivo__mes mono">Nov</span>
           <img data-img="venom" sizes="120px" alt="The Venom B">
-          <div><h3>The Venom B <span class="mono chip">ahora</span></h3><p>Pollo de corral frito, potato bun de carbón activo, salsa lemon pepper.</p></div>
+          <div><h3>The Venom B <span class="mono chip" data-b-ahora>ahora</span></h3><p>Pollo de corral frito, potato bun de carbón activo, salsa lemon pepper.</p></div>
         </li>
         <li class="archivo__fila revela">
           <span class="archivo__mes mono">Oct</span>
@@ -201,16 +219,22 @@
         <h2 id="carta-titulo" class="carta__titulo">Carta</h2>
         <p class="mono carta__sub">Jueves a domingo · cocina de 19:00 a 23:00</p>
       </header>
+      <nav class="carta__nav mono" aria-label="Secciones de la carta">
+        <a href="#carta-burgers">Burgers</a><a href="#carta-snacks">Snacks</a><a href="#carta-postres">Postres</a><a href="#carta-beber">Beber</a>
+      </nav>
 
       <div class="carta__rejilla">
-        <div class="carta__col">
-          <h3 class="carta__h3">Burgers</h3>
+        <div class="carta__col carta__col--burgers">
+          <div class="carta__lado">
+          <h3 class="carta__h3" id="carta-burgers">Burgers</h3>
           <p class="carta__intro">Las de vaca, con <b>180&nbsp;g de vaca madurada</b>. Todas en brioche artesanal de Buns Bunny Factory y con patatas fritas.</p>
           <a class="carta__bmes" href="#b-del-mes">
             <span class="mono">Fuera de carta · la B de noviembre</span>
             <strong>The Venom B</strong>
             <span class="flecha" aria-hidden="true">→</span>
           </a>
+          </div>
+          <div class="carta__listado">
           <ul class="platos">
             <li class="plato">
               <p class="plato__linea"><span class="plato__nombre">Cheese bacon burger</span><span class="plato__precio">14 €</span></p>
@@ -254,15 +278,18 @@
             </li>
           </ul>
           <p class="carta__nota">Pan sin gluten y sin lactosa bajo petición. Y cualquier burger se puede pedir en versión vegetariana o vegana.</p>
-          <figure class="carta__foto"><img data-img="cheesebacon" sizes="(min-width: 960px) 30vw, 92vw" alt="The Cheesebacon B2 de cerca: brioche, cheddar fundido con bacon bits y la carne madurada"><figcaption class="mono">The Cheesebacon B2, la B de agosto 2026</figcaption></figure>
           <blockquote class="cita">
             <p>“Todas las hamburguesas se pueden hacer vegetarianas y se les puede poner pan sin gluten.”</p>
             <cite class="mono">Mar R. · reseña en Google</cite>
           </blockquote>
+          </div>
+          <div class="carta__lado carta__lado--b">
+          <figure class="carta__foto"><img data-img="cheesebacon" sizes="(min-width: 960px) 30vw, 92vw" alt="The Cheesebacon B2 de cerca: brioche, cheddar fundido con bacon bits y la carne madurada"><figcaption class="mono">The Cheesebacon B2, la B de agosto 2026</figcaption></figure>
+          </div>
         </div>
 
         <div class="carta__col">
-          <h3 class="carta__h3">Snacks</h3>
+          <h3 class="carta__h3" id="carta-snacks">Snacks</h3>
           <ul class="platos">
             <li class="plato plato--estrella">
               <p class="plato__linea"><span class="plato__nombre">Batatas Bergantes <abbr class="v" title="Opción vegana">V</abbr></span><span class="plato__precio">9,5 €</span></p>
@@ -299,19 +326,25 @@
             <figure><img data-img="batatas" sizes="(min-width: 960px) 14vw, 44vw" alt="Batatas Bergantes: batata frita con panceta, mermelada de bacon, mayonesa y brotes"><figcaption class="mono">Batatas Bergantes</figcaption></figure>
             <figure><img data-img="totopos" sizes="(min-width: 960px) 14vw, 44vw" alt="Totopos Umami con cheddar, crema agria y jalapeño"><figcaption class="mono">Totopos Umami</figcaption></figure>
           </div>
-        </div>
-
-        <div class="carta__col">
-          <h3 class="carta__h3">Postres</h3>
-          <p class="carta__texto carta__texto--grande">Caseros y fuera de carta. Pregunta cuáles hay hoy: también los hay veganos o sin gluten.</p>
-          <figure class="carta__foto"><img data-img="postre" sizes="(min-width: 960px) 24vw, 92vw" alt="Porción de tarta casera sobre un plato de hoja de plátano"><figcaption class="mono">Postre casero · agosto 2025</figcaption></figure>
-
-          <h3 class="carta__h3 carta__h3--beber">Para beber</h3>
-          <p class="carta__texto">Cervezas artesanas, no solo las de siempre. Pregunta cuáles hay.</p>
           <blockquote class="cita">
             <p>“El entrante que recomiendo es el plato de batata, sencillamente delicioso.”</p>
             <cite class="mono">Ivan M. · reseña en Google</cite>
           </blockquote>
+        </div>
+
+        <div class="carta__col">
+          <h3 class="carta__h3" id="carta-postres">Postres</h3>
+          <p class="carta__texto carta__texto--grande">Caseros y fuera de carta. Pregunta cuáles hay hoy: también los hay veganos o sin gluten.</p>
+          <figure class="carta__foto carta__foto--mini"><img data-img="postre" sizes="(min-width: 960px) 18vw, 60vw" alt="Porción de tarta casera sobre un plato de hoja de plátano"><figcaption class="mono">Postre casero · agosto 2025</figcaption></figure>
+
+          <div class="beber" id="carta-beber">
+            <h3 class="carta__h3 carta__h3--beber">Para beber</h3>
+            <p class="beber__texto">Cervezas artesanas, no solo las de siempre. Pregunta cuáles hay hoy en la nevera.</p>
+            <blockquote class="cita cita--clara">
+              <p>“Una amplia gama de cervezas incluyendo artesanas, no se quedan con las clásicas.”</p>
+              <cite class="mono">edipo MTG · reseña en Google</cite>
+            </blockquote>
+          </div>
         </div>
       </div>
 
@@ -394,7 +427,7 @@
     <p class="pie__marca" aria-hidden="true">Bergante</p>
     <div class="pie__datos mono">
       <p>Bergante Burger · Carrer Joan Gil 15, 03760 Ondara (Alicante)</p>
-      <p><a href="tel:+34613133429">613 133 429</a> · <a href="https://www.instagram.com/bergante_burger/" target="_blank" rel="noopener">@bergante_burger</a> · Umami Group</p>
+      <p><a class="pie__enlace" href="tel:+34613133429">613 133 429</a> · <a class="pie__enlace" href="https://www.instagram.com/bergante_burger/" target="_blank" rel="noopener">@bergante_burger</a> · Umami Group</p>
     </div>
   </footer>
 

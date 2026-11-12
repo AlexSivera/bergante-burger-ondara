@@ -34,3 +34,22 @@ Resultado: sin desbordes horizontales; el rótulo BERGANTE pasa por detrás del 
 - Permiso para usar fotos de Instagram, de clientes en Maps y las citas de reseñas.
 - Si el 613 133 429 tiene WhatsApp (no se ha anunciado como tal).
 - Cada mes: actualizar nombre, ingredientes, foto y `data-b-fin` de la B del mes.
+
+## Segunda pasada (12/11/2026)
+Revisión completa en 390 y 1440 px con medición automática de contraste (WCAG AA) y áreas táctiles. Corregido:
+1. Contraste: rojo claro `#f2463f` para texto pequeño sobre negro, rojo hondo `#8f1116` sobre el gris de estudio, alérgenos `#665c50`, verde `#226a2e`, reserva sobre `#c8191f` con texto crema. Resultado: 0 textos por debajo de AA en móvil y escritorio.
+2. Foco de teclado en crema sobre fondos rojos.
+3. "Reservar" con ratón (ordenador) baja a #reserva; en móvil táctil sigue siendo `tel:` (comprobado con emulación táctil).
+4. B del mes caducada: pasado `data-b-fin` cambia sola a "edición cerrada", muestra aviso con enlace a Instagram, quita la etiqueta "ahora" y cambia el botón (probado forzando la fecha).
+5. Tilde de "ASÍ" separada de la etiqueta.
+6. Archivo en color en móvil (blanco y negro solo con ratón).
+7. Portadas de reels a resolución original (Venom 1217×2160).
+8. Enlaces del pie con área táctil de ~43 px.
+9. Estado abierto/cerrado visible en el hero móvil.
+10. Submenú fijo de la carta en móvil con sección activa.
+11. Carta de escritorio: Burgers a todo el ancho con lista a dos columnas; debajo Snacks | Postres.
+12. Menú a pantalla completa en móvil (Escape cierra, foco al primer enlace).
+13. Foto del postre reducida.
+14. "Para beber" como panel oscuro con cita real sobre las cervezas.
+15. Capa a capa en móvil: burger más grande, sin hueco.
+Consola sin errores ni avisos.

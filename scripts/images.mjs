@@ -21,11 +21,11 @@ const FOTOS = {
   'cheesebacon-salsa': { src: 'real/cheesebacon-salsa.jpg', ratio: 4 / 5, foco: [0.5, 0.55], grade: 'acero', sizes: [480, 800, 1200] },
   'emily':           { src: 'real/emily-bandeja.jpg', ratio: 4 / 5, foco: [0.5, 0.5], grade: 'acero', sizes: [480, 800, 1200] },
   'emily-servicio':  { src: 'real/emily-servicio.jpg', ratio: 4 / 5, foco: [0.5, 0.5], grade: 'acero', sizes: [480, 800, 1200, 1600] },
-  // Portadas de reels: solo existen a 360 px. Se usan pequeñas (fichas del archivo).
-  'venom':           { src: 'real/venom.jpg', ratio: 9 / 16, foco: [0.5, 0.5], grade: 'reel', sizes: [360] },
-  'txist-mak':       { src: 'real/txist-mak.jpg', ratio: 9 / 16, foco: [0.5, 0.5], grade: 'reel', sizes: [360] },
-  'doner-guante':    { src: 'real/guante.jpg', ratio: 9 / 16, foco: [0.5, 0.5], grade: 'reel', sizes: [360] },
-  'halloween':       { src: 'real/halloween.jpg', ratio: 9 / 16, foco: [0.5, 0.5], grade: 'reel', sizes: [360] },
+  // Portadas de reels a resolución original (página de inserción pública de Instagram, /p/<id>/embed/).
+  'venom':           { src: 'real/venom-800.jpg', ratio: 9 / 16, foco: [0.5, 0.5], grade: 'reel', sizes: [360, 720, 1080] },
+  'txist-mak':       { src: 'real/txist-mak-800.jpg', ratio: 9 / 16, foco: [0.5, 0.5], grade: 'reel', sizes: [360, 720] },
+  'doner-guante':    { src: 'real/guante-800.jpg', ratio: 9 / 16, foco: [0.5, 0.5], grade: 'reel', sizes: [360, 720] },
+  'halloween':       { src: 'real/halloween-800.jpg', ratio: 9 / 16, foco: [0.5, 0.5], grade: 'reel', sizes: [360, 720] },
   // Secuencia de la Döner B (carrusel de Instagram, rotulado retirado)
   'paso-1': { ...PASO, src: 'ig/build/clean/b1.png' },
   'paso-2': { ...PASO, src: 'ig/build/clean/b2.png' },

@@ -11,10 +11,10 @@ Las fotos de Instagram y Google Maps se usan **solo para la demo**: antes de pub
 | `emily` | Archivo (octubre) | IG DeCUuQVAEfA (03/10/2026), foto 1 | Real, A | — |
 | `emily-servicio` | El local | IG DeCUuQVAEfA, foto 2 (brazo tatuado sirviendo) | Real, A | Sala real en servicio de noche, gente desenfocada |
 | `paso-1` … `paso-8` | Capa a capa | IG DdHKSC5iOWw (10/09/2026), carrusel "Desliza para agregar…" de la Döner B; rotulado eliminado en la franja superior | Real, A | Repetir el formato cada mes con la B nueva: cámara fija, fondo gris, un fotograma por capa, **sin texto** |
-| `venom` | La B del mes, Archivo | Portada del reel DfaiHCZz18U (06/11/2026), 360×640 | Real, baja resolución | Foto de producto de la Venom B a ≥2000 px |
-| `txist-mak` | Archivo (julio) | Portada del reel Da3HF_6ACRm (16/07/2026), 360×640 | Real, baja resolución | — |
-| `doner-guante` | Archivo (septiembre) | Portada del reel DdZWfDfwhSx (17/09/2026), 360×640 | Real, baja resolución | — |
-| `halloween` | El local | Portada del reel DfE2IkKAUrG (29/10/2026), 360×640 | Real, baja resolución | Foto del equipo (con su permiso) |
+| `venom` | La B del mes, Archivo | Portada del reel DfaiHCZz18U (06/11/2026), 1217×2160 (página de inserción pública /p/<id>/embed/) | Real, buena | Foto de producto de la Venom B a ≥2000 px |
+| `txist-mak` | Archivo (julio) | Portada del reel Da3HF_6ACRm (16/07/2026), 1216×2160 (inserción pública) | Real, buena | — |
+| `doner-guante` | Archivo (septiembre) | Portada del reel DdZWfDfwhSx (17/09/2026), 720×1280 (inserción pública) | Real, aceptable | — |
+| `halloween` | El local | Portada del reel DfE2IkKAUrG (29/10/2026), 720×1280 (inserción pública) | Real, aceptable | Foto del equipo (con su permiso) |
 | `local-mural` | El local | Google Maps, foto de cliente (ene. 2025) | Real, nivel B (móvil) | **Prioridad**: interior con el mural, de noche, luz cálida, mesas ocupadas, horizontal y vertical |
 | `totopos` | Carta · Snacks | Google Maps, foto de cliente | Real, B | Foto cenital de los Totopos Umami sobre su papel |
 | `postre` | Carta · Postres | Google Maps, reseña de Ivan Morell (ago. 2025) | Real, B | Los postres caseros de temporada, con la misma luz que la B del mes |

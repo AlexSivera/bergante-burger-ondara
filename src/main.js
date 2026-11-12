@@ -46,6 +46,61 @@ if (bmes) {
   const el = $('[data-b-quedan]', bmes);
   const quedan = dias + 1; // contando hoy
   if (el) el.textContent = quedan > 1 ? `Quedan ${quedan} días` : quedan === 1 ? 'Último día' : 'Edición cerrada';
+  // Pasado el mes, la web no se queda anunciando una B que ya no existe
+  if (quedan < 1) {
+    const mes = new Intl.DateTimeFormat('es', { month: 'long', timeZone: 'UTC' }).format(new Date(Date.parse(fin)));
+    bmes.classList.add('bmes--cerrada');
+    const etiqueta = $('[data-b-etiqueta]', bmes);
+    if (etiqueta) etiqueta.textContent = `La B de ${mes} · edición cerrada`;
+    const aviso = $('[data-b-aviso]', bmes);
+    if (aviso) aviso.hidden = false;
+    const boton = $('[data-b-boton]', bmes);
+    if (boton) {
+      boton.textContent = 'La próxima, en Instagram';
+      boton.href = 'https://www.instagram.com/bergante_burger/';
+      boton.target = '_blank';
+      boton.rel = 'noopener';
+      boton.classList.remove('js-reservar');
+    }
+    $$('[data-b-ahora]').forEach((chip) => chip.remove());
+    $$('.carta__bmes .mono').forEach((m) => { m.textContent = `La última B · ${mes}`; });
+  }
+}
+
+/* ---------- Reservar: en móvil llama; con ratón (ordenador) baja a la sección con el teléfono ---------- */
+if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+  $$('.js-reservar').forEach((a) => { a.href = '#reserva'; });
+}
+
+/* ---------- Menú a pantalla completa (móvil) ---------- */
+const botonMenu = $('.top__menu');
+const menu = $('#menu');
+if (botonMenu && menu) {
+  const abrir = (si) => {
+    menu.hidden = !si;
+    botonMenu.setAttribute('aria-expanded', String(si));
+    botonMenu.textContent = si ? 'Cerrar' : 'Menú';
+    document.documentElement.classList.toggle('menu-abierto', si);
+    document.body.classList.toggle('menu-abierto', si);
+    if (si) $('a', menu)?.focus();
+  };
+  botonMenu.addEventListener('click', () => abrir(menu.hidden));
+  $$('a', menu).forEach((a) => a.addEventListener('click', () => abrir(false)));
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !menu.hidden) { abrir(false); botonMenu.focus(); } });
+  window.matchMedia('(min-width: 900px)').addEventListener('change', (m) => { if (m.matches) abrir(false); });
+}
+
+/* ---------- Submenú de la carta: marca la sección en pantalla ---------- */
+const enlacesCarta = $$('.carta__nav a');
+if (enlacesCarta.length && 'IntersectionObserver' in window) {
+  const objetivos = enlacesCarta.map((a) => $(a.getAttribute('href'))).filter(Boolean);
+  const ioCarta = new IntersectionObserver((entradas) => {
+    entradas.forEach((e) => {
+      if (!e.isIntersecting) return;
+      enlacesCarta.forEach((a) => a.classList.toggle('activa', a.getAttribute('href') === `#${e.target.id}`));
+    });
+  }, { rootMargin: '-30% 0px -60% 0px' });
+  objetivos.forEach((o) => ioCarta.observe(o));
 }
 
 /* ---------- Cabecera: transparente sobre el hero, sólida después; barra móvil tras el hero ---------- */
