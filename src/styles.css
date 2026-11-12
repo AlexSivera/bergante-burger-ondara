@@ -343,6 +343,7 @@ abbr { text-decoration: none; }
 .plato__linea::after { content: ''; order: 1; flex: 1; border-bottom: 2px dotted rgba(184, 24, 30, .4); transform: translateY(-4px); min-width: 16px; }
 .plato__precio { order: 2; font-family: var(--f-display); font-weight: 900; font-size: 23px; color: var(--rojo-texto); white-space: nowrap; }
 .plato__desc { font-size: 14px; color: #3e3932; margin-top: 3px; max-width: 30em; }
+.plato__alerg { font-size: 10px; letter-spacing: .06em; text-transform: uppercase; color: #7d7264; margin-top: 5px; }
 .v { display: inline-block; font-family: var(--f-display); font-weight: 900; color: var(--verde); font-size: .9em; margin-left: 2px; cursor: help; }
 .sello {
   display: inline-block; margin-top: 10px; padding: 4px 8px;

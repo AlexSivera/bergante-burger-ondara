@@ -17,7 +17,7 @@ Las fotos de Instagram y Google Maps se usan **solo para la demo**: antes de pub
 | `halloween` | El local | Portada del reel DfE2IkKAUrG (29/10/2026), 360×640 | Real, baja resolución | Foto del equipo (con su permiso) |
 | `local-mural` | El local | Google Maps, foto de cliente (ene. 2025) | Real, nivel B (móvil) | **Prioridad**: interior con el mural, de noche, luz cálida, mesas ocupadas, horizontal y vertical |
 | `totopos` | Carta · Snacks | Google Maps, foto de cliente | Real, B | Foto cenital de los Totopos Umami sobre su papel |
-| `pollo-thai` | Carta · Snacks | Google Maps, foto de cliente | Real, B | Pollo thai + salsa satay, luz dura como el resto |
+| `batatas` | Carta · Snacks | Google Maps, reseña de Ivan Morell (ago. 2025; su ticket incluye Batatas Bergantes) | Real, B | Batatas Bergantes con luz dura, sobre el acero o en la mesa |
 | `neon` | El local | Google Maps, reseña de edipo MTG (≈ sept. 2026): neón "Fuck the diet" | Real, nivel B (móvil) | El mismo neón fotografiado de noche con trípode |
 | `og.jpg` | Compartir en redes | Recorte apaisado de `hero-acero` | Real | — |
 

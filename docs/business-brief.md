@@ -34,7 +34,9 @@ Cheese bacon burger 14 € · Barbacoa burger 14 € · Trufa cheese bacon burge
 **Confirmado (12/11/2026)** con la imagen del destacado «Carta» de su Instagram que pasó el cliente: mismas 8 burgers, mismos precios y mismo orden.
 Comprobación previa: la misma página en agosto 2025 (reseña de Ivan Morell) tenía las mismas 8 burgers a 12–16 €, y su ticket del 15/08/2025 cobra Cheese bacon 13 € y Miss Piggy 15 € → la de 2026 es la vigente.
 
-**Snacks y cakes** — la foto más reciente es de agosto 2025 (Ivan Morell; el ticket confirma Batatas Bergantes 8,50 €). Cakes: foto de abril 2023. Precios de 2025 marcados en la web como pendientes de actualizar.
+**Snacks** — carta vigente del destacado «Carta» de Instagram (imagen facilitada por el cliente, 12/11/2026): Torreznos jumbo con salsa "Emy" 13 € · Batatas Bergantes 9,5 € (V) · Cheese bacon fries 9 € · Totopos Umami 11 € (V) · Aros de cebolla 10 € (V, nuevo) · Alitas 9 €. El pollo al estilo thai ya **no** está en carta.
+**Alérgenos** (leyenda de la carta): 1 gluten, 2 soja, 3 huevos, 4 sésamo, 5 lácteos, 6 frutos con cáscara, 7 mostaza, 8 sulfitos, 9 moluscos, 10 cacahuetes, 11 pescado, 12 altramuces. En la web se muestran con nombre bajo cada plato.
+**Cakes** — solo hay foto de abril 2023 (tarta de queso y de Nutella, 5 €, alérgenos 3 y 5): precios a confirmar.
 **Snacks**: Torreznos jumbo con salsa "Emy" 12 € · Batatas Bergantes 8,5 € (V) · Cheese bacon fries 8 € · Totopos Umami 10 € (V) · Pollo al estilo thai 8,5 € (V) · Alitas 8 €. **Cakes**: tarta de queso con galleta de jengibre 5 € · tarta de Nutella con crema de chocolate blanco 5 €. "V" = opción vegana. Alérgenos numerados 1–12 en la carta (no se ha podido leer la leyenda).
 
 **Snacks (ago. 2025)**: ver arriba. En el local hay un neón rosa "Fuck the diet" (foto de edipo MTG).

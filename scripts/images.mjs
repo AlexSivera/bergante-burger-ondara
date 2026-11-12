@@ -39,7 +39,7 @@ const FOTOS = {
   // — Fotos de clientes en Google Maps (provisionales hasta la sesión de fotos) —
   'local-mural':     { src: 'real/local-mural.jpg', ratio: 4 / 5, foco: [0.5, 0.55], grade: 'movil', sizes: [480, 800, 1200] },
   'totopos':         { src: 'real/totopos.jpg', ratio: 4 / 5, foco: [0.5, 0.45], grade: 'movil', sizes: [480, 800] },
-  'pollo-thai':      { src: 'real/pollo-thai.jpg', ratio: 4 / 5, foco: [0.35, 0.5], grade: 'movil', sizes: [480, 800] },
+  'batatas':         { src: 'resenas/r13.jpg', ratio: 4 / 5, foco: [0.5, 0.45], grade: 'movil', sizes: [480, 800] }, // reseña de Ivan Morell (ago. 2025)
 
   // Neón del local (reseña de Google de edipo MTG, sept. 2026)
   'neon':            { src: 'resenas/r03.jpg', ratio: 4 / 5, foco: [0.5, 0.3], grade: 'acero', sizes: [480, 800, 1200] },
