@@ -13,7 +13,7 @@ No es una metáfora impuesta: el acero sale de sus fotos reales; el rojo y el cr
 - **Movimiento**: mínimo y con función: el nombre detrás del pan (estático, sin trucos), la burger que se monta con el scroll, apariciones suaves. Respeta `prefers-reduced-motion`.
 
 ## Momentos distintivos
-1. **Hero-portada**: BERGANTE gigante pasando *detrás* del pan de la Cheesebacon B2 (segunda capa de la foto recortada con una elipse medida sobre la propia imagen).
+1. **Hero-portada**: BERGANTE gigante pasando *detrás* del pan de la Cheesebacon B2 (segunda capa de la foto recortada con una elipse medida sobre la propia imagen). Sobre el pan, las letras tapadas se dibujan solo en contorno (crema al 80 %) para que la G no se lea como C.
 2. **La B del mes** como comanda de cocina: ticket térmico con los ingredientes, mes y días que quedan.
 3. **Capa a capa**: la Döner B se monta con el scroll con sus 8 fotos reales.
 4. **Archivo de las B**: julio → noviembre, como un calendario de drops.

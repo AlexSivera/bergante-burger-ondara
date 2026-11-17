@@ -128,6 +128,9 @@ abbr { text-decoration: none; }
 .hero__foto img { object-fit: cover; }
 /* Segunda capa: la misma foto recortada al contorno del pan (elipse medida sobre la imagen). Tapa la cabecera. */
 .hero__foto--delante { z-index: 3; clip-path: ellipse(23.4% 10.6% at 49.8% 54%); }
+/* Contorno de las letras que el pan tapa: así la G no se lee como C y se mantiene el efecto de portada */
+.hero__rayos { position: absolute; inset: 0; z-index: 4; pointer-events: none; clip-path: ellipse(23.4% 10.6% at 49.8% 54%); }
+.hero__rayos .hero__cabecera { color: transparent; -webkit-text-stroke: .009em rgba(241, 234, 223, .8); }
 .hero__cabecera {
   position: absolute; z-index: 2; left: 0; right: 0;
   top: 37.2%;
@@ -172,7 +175,7 @@ abbr { text-decoration: none; }
     -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 7%, #000 93%, transparent 100%);
             mask-image: linear-gradient(90deg, transparent 0, #000 7%, #000 93%, transparent 100%);
   }
-  .hero__foto--delante { clip-path: ellipse(18.6% 25.5% at 50.2% 44.2%); }
+  .hero__foto--delante, .hero__rayos { clip-path: ellipse(18.6% 25.5% at 50.2% 44.2%); }
   .hero__cabecera { top: 8.2%; font-size: 19.6cqw; }
   .hero__pie { text-align: right; }
   .hero__escena::after {
